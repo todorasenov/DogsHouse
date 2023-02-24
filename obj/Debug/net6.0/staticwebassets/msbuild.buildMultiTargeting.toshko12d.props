@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\toshko12d.props" />
+</Project>
