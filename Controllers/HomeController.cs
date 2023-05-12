@@ -18,7 +18,11 @@ namespace toshko12d.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Contacts()
+        {
+            return View();
+        }
+        public IActionResult Gallery()
         {
             return View();
         }

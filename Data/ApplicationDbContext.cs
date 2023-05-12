@@ -9,8 +9,7 @@ namespace toshko12d.Data
             : base(options)
         {
         }
-        public DbSet<Dog> Dogs { get; set; }
-		public DbSet<Breed> Breeds { get; set; }
+        public DbSet<Service> Services { get; set; }
 		public DbSet<Reservation> Reservations { get; set; }
 	}
 }

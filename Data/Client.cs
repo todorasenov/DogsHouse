@@ -4,7 +4,9 @@ namespace toshko12d.Data
 {
     public class Client:IdentityUser
     {
-        public string Family { get; set; }
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
 
         public DateTime RegisterOn { get; set; }
         //1:m
